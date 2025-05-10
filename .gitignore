@@ -3,6 +3,9 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+
+cse212-hw.sln
+
 # User-specific files
 .DS_Store
 *.rsuser
