@@ -129,6 +129,7 @@ public static class Recursion
     /// #############
     public static void WildcardBinary(string pattern, List<string> results)
     {
+        // TODO Start Problem 4
         int index = pattern.IndexOf('*');
         if (index == -1)
         {
@@ -155,8 +156,7 @@ public static class Recursion
     /// </summary>
     public static void SolveMaze(List<string> results, Maze maze, int x = 0, int y = 0, List<ValueTuple<int, int>>? currPath = null)
     {
-        // If this is the first time running the function, then we need
-        // to initialize the currPath list.
+        // TODO Start Problem 5
         if (currPath == null)
         {
             currPath = new List<ValueTuple<int, int>>();
